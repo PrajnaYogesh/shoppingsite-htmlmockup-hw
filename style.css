@@ -1,0 +1,195 @@
+*{
+  margin:0px;
+  padding:0px;
+
+}
+
+body{
+    /* text-align:center; */
+    background-color: antiquewhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+header {
+  /* border: 1px dashed red; */
+  /* border-width: 2px; */
+  height: 12vh;
+  margin: 1em;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  background: rgb(34,193,195);
+  background: linear-gradient(201deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.4150035014005602) 100%);
+box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;}
+
+.myName{
+  /* border: 1px solid blue; */
+  margin: 0px 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  text-shadow: 0px 0px 5px rgba(128, 0, 0, 1);
+}
+
+.todaysDate{
+  /* border: 1px solid rgb(52, 71, 62); */
+  margin: 0px 50px 0px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  text-shadow: 0px 0px 5px rgba(128, 0, 0, 1);
+
+}
+nav {
+  /* border: 1px dashed blue; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;  margin: 1em;
+  /* border-width: 4px; */
+  height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding:5px 0px;
+}
+
+.shoppingsite{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+  background-color: rgb(219, 231, 241);
+}
+
+.logo{
+  height: 70%;
+  border-radius: 50%;
+ 
+}
+
+.company-name{
+  text-align: center;
+}
+
+.sectionContainer {
+  /* border:  1px dashed green; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  /* border-width: 4px; */
+  margin: 1em;
+  
+}
+section {
+  /* border: 0.2px solid rgb(240, 160, 240); */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  /* border-width: 0.2px; */
+  /* height: 9vh; */
+  margin: 1em;
+ padding: 10px;
+
+}
+.second-section{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.section-img{
+  height: 70px;
+  /* border: solid blue; */
+  padding: 0px;
+}
+
+.desc{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(186, 20, 161);
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-color: rgb(228, 97, 4);
+}
+.table-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote{
+  font-style: italic;
+  text-align: center;
+  font-size: 1em;
+  color: #ea3418;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.quote:hover{
+  font-size: 1.5em;
+  color: rgb(44, 44, 138);
+}
+
+article{
+ 
+    /* border: 1px dashed rgb(72, 211, 223); */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        height: 20vh;
+    margin: 1em;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+
+.sale-container{
+  width: 300px;
+  height: 100%;
+  /* border: 1px solid rgb(173, 169, 169); */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.sale-item{
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid rgb(180, 48, 48); */
+}
+
+.sale-desc{
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid rgb(180, 48, 48); */
+  text-align: center;
+  font-weight: 800;
+}
+
+footer{
+  /* border: 1px dashed rgb(192, 106, 19); */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* border-width: 4px; */
+    height: 15vh;
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left{
+  display: flex;
+  width: 300px;
+  padding-top: 30px;
+  
+}
+
+.connect{
+  font-size: 1.2em;
+  padding-right: 5px;
+ 
+}
+
+
+.logo-details{
+  height: 30px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.about{
+  font-size: 1.2em;
+  padding:5px;
+}
+
